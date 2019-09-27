@@ -3,10 +3,10 @@ import classes from './Layout.css'
 
 const layout = (props) => (
     <Fragment>
-    <div>Toolbar, Navbar</div>
-    <main className={classes.Content}>
-        {props.children}
-    </main>
+        <div>Toolbar, Navbar</div>
+        <main className={classes.Content}>
+            {props.children}
+        </main>
     </Fragment>
 );
 
