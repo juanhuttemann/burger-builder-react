@@ -4,7 +4,7 @@ import Backdrop from '../Backdrop/Backdrop'
 
 const modal = ( props ) => (
     <Fragment>
-    <Backdrop 
+    <Backdrop
         show={props.show}
         clicked={props.modalClosed}
     />
